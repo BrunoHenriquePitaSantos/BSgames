@@ -109,6 +109,16 @@ footer{
     padding-top: 100px;
 }
 
+.botao-enviar{
+    background-color:#181818;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-style:bold;
+    padding-left: 20px;
+}
+
+
 .links{
     color: white;
 }
