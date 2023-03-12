@@ -34,6 +34,7 @@ header{
     font-family:'Titillium Web', sans-serif;
     font-style: italic;
 } 
+
 .banner{
     background-color:black;
     height: 400px;
@@ -109,33 +110,15 @@ footer{
     padding-top: 100px;
 }
 
-.botao-enviar{
-    background-color:#181818;
-    border: none;
-    color: white;
-    font-size: 30px;
-    font-style:bold;
-    padding-left: 20px;
-}
-
-
-.links{
-    color: white;
-}
-
-.redes-sociais{
-    color: white;     
-}
-
-.redes-sociais h2{
-    text-transform: initial;
-}
-
 .links-footer{
     text-transform: uppercase;
     font-style: italic;
     display: flex;
     justify-content: space-between;
+}
+
+.links{
+    color: white;
 }
 
 .links-footer h2{
@@ -147,6 +130,23 @@ footer{
     text-decoration: none;
     font-size: 25px;
     color: white;
+}
+
+.redes-sociais{
+    color: white;     
+}
+
+.redes-sociais h2{
+    text-transform: initial;
+}
+
+.botao-enviar{
+    background-color:#181818;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-style:bold;
+    padding-left: 20px;
 }
 
 .icones{
@@ -194,10 +194,16 @@ footer{
         background-color:#181818;
         align-items: start;
     }
+    
     .barras{
         display: inline-block;
     }
 
+    .menu-ativo{
+        display: flex;
+    }    
+  
 }
+
 
 /* mobile */

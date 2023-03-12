@@ -21,13 +21,30 @@ function alertinha(){
         // = -semelhante
 }
 
-
 let email = document.getElementById("campo-email")
 
 function enviarEmail(){
     let emailDigitado = email.value;
-
     console.log(emailDigitado);
-
-
 }
+
+//USANDO O JQUERY:
+
+$(document).ready(function(){
+// // Ações /funções que serão iniciadas assim que a tela iniciar
+    alert("Site BS Games");
+    $("#barras"),click(function(){
+        // if($("#menu").hasClass("menu-ativo")){
+        //     $("#menu").removeClass("menu-ativo");
+        // }else{
+        //     $("#menu").addClass("menu-ativo");
+        // }   
+        $("#menu").toggleClass("menu-ativo");
+    });
+
+});    
+  
+
+
+
+
